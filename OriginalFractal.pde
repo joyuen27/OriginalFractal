@@ -1,13 +1,10 @@
-import processing.core.PApplet;
 
-public class Sketch extends PApplet {
 
-  public void setup() {
-  
-}
-public void settings(){
+
+public void setup() {  
   size(400,400);
 }
+
 public void draw() {
   pushMatrix();
   translate(200,200);
@@ -39,6 +36,6 @@ public void Pedal(float x, float y, int siz) {
     ellipse(x, y, siz, siz);
     Pedal(x - 15, y, siz - 30);
     
-  }
 }
-}
+
+
