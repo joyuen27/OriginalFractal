@@ -1,6 +1,11 @@
 public void setup() {
-  size(400, 400);
+  
 }
+
+public void settings(){
+  size(400,400);
+}
+
 public void draw() {
   pushMatrix();
   translate(200,200);
