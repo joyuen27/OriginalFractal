@@ -24,12 +24,12 @@ public void Pedal(float x, float y, int siz) {
   if (siz <= 10) {
     fill(siz + 100, 0 , 0);
     noStroke();
-    circle(x, y, siz);
+    ellipse(x, y, siz, siz);
   }
   else {
     fill(siz + 100, 0 , 0);
     noStroke();
-    circle(x, y, siz);
+    ellipse(x, y, siz, siz);
     Pedal(x - 15, y, siz - 30);
     
   }
